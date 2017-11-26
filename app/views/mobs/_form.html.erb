@@ -1,0 +1,15 @@
+<%= form_for @phone do |form| %>
+<table>
+<tbody>
+  <tr>
+    <td><%= form.label :name %></td>
+    <td><%= form.text_field :name %></td>
+  </tr>
+  <tr>
+    <td><%= form.label :number %></td>
+    <td><%= form.text_field :number %></td>
+  </tr>
+</tbody>
+</table>
+<%= form.submit "Save phone" %>
+<% end %>
